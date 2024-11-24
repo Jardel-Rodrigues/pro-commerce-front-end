@@ -9,7 +9,7 @@ export default function HeaderAdmin() {
     return (
         <header className="dsc-header-admin">
             <nav className="dsc-container">
-                <h1>DSCommerce</h1>
+                <h1>Pro Commerce</h1>
                 <div className="dsc-navbar-right">
                     <div className="dsc-menu-items-container">
                         <NavLink 
