@@ -1,9 +1,9 @@
 import { createContext } from "react";
-import { CredentialsDTO } from "../models/auth";
+import { AccessTokenPayloadDTO } from "../models/auth";
 
 export type ContextTokenType = {
-  contextTokenPayload: CredentialsDTO | undefined;
-  setContextTokenPayload: (accessTokenPayload: CredentialsDTO | undefined) => void;
+  contextTokenPayload: AccessTokenPayloadDTO | undefined;
+  setContextTokenPayload: (accessTokenPayload: AccessTokenPayloadDTO | undefined) => void;
 };
 
 export const ContextToken = createContext<ContextTokenType>({
